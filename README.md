@@ -35,7 +35,7 @@ This repository contains a working Java implementation of the multi-item variant
 ### Variables
 - $I_{tj}$ = inventory level at the end of period $t$ for item $j$
 - $q_{tj}$ = quantity to be produced or ordered during period $t$ for item $j$
-- $y_{tj} = \begin{cases} 1 & \text{if units of item } j \text{ are manufactured/ordered in period } t \\ 0 & \text{otherwise} \end{cases}$
+- $y_{tj}$ = \begin{cases} 1 & \text{if units of item } j \text{ are manufactured/ordered in period } t \\ 0 & \text{otherwise} \end{cases}$
 
 ### Objective Function
 
