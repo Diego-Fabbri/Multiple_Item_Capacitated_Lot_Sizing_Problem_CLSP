@@ -109,30 +109,6 @@ The exported LP and solver log for this instance are included in the repository.
 
 > CPLEX is a commercial solver. An academic license is available free of charge through the [IBM Academic Initiative](https://www.ibm.com/academic).
 
-## Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Diego-Fabbri/Multiple_Item_Capacitated_Lot_Sizing_Problem_CLSP.git
-   ```
-
-2. Install the CPLEX JAR into your local Maven repository:
-   ```bash
-   mvn install:install-file \
-     -Dfile=<path-to-cplex.jar> \
-     -DgroupId=External_Libraries \
-     -DartifactId=Cplex \
-     -Dversion=12.5 \
-     -Dpackaging=jar
-   ```
-
-3. Build and run with Maven:
-   ```bash
-   mvn clean package
-   mvn exec:java
-   ```
-
-   Or open the project directly in **NetBeans IDE** and use the pre-configured run action (`nbactions.xml`).
 
 ## Output
 
@@ -141,7 +117,3 @@ When executed, the program:
 - Solves it and prints the solver status and optimal objective value
 - Exports the model in LP format (`Multi_Item_Capacited_Lot_Sizing.lp`)
 - Writes the solver log to `Multi_Item_Capacited_Lot_Sizing.log`
-
-## License
-
-No license has been specified for this repository. Please contact the author before reusing this code for purposes beyond personal study or reference.
